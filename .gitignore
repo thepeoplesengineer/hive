@@ -1,0 +1,46 @@
+# Virtual environment folder
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variable files
+.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store             # macOS
+Thumbs.db             # Windows
+
+# Compiled code
+*.so                  # Compiled Python modules
+*.egg                 # Python Egg files
+*.egg-info/           # Egg metadata
+dist/                 # Distribution build folder
+build/                # Build folder
+
+# IDE-specific files
+.idea/                # JetBrains IDEs (e.g., PyCharm)
+.vscode/              # VSCode settings
+*.sublime-project     # Sublime Text project files
+*.sublime-workspace
+
+# Testing and Coverage
+.coverage             # Coverage file
+*.cover               # Coverage data
+htmlcov/              # Coverage report directory
+
+# Deployment files
+*.pid                 # Process ID files
+*.log                 # Log files generated at runtime
+
+# Node.js (if used in parts of the project)
+node_modules/         # Node.js dependencies (if any)
+
+# Backup or temporary files
+*.bak
+*.swp
+*.tmp
